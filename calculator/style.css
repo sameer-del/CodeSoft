@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  /* background-color: #3B06AD; */
+  background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+  width: 400px;
+  display: grid;
+  padding: 20px;
+  border-radius: 20px;
+  grid-template-columns: repeat(4, 90px);
+  background-color: #171D22;
+  /* background: rgb(247, 249, 250); */
+}
+
+input {
+  color: #E7E7E8;
+  font-size: 2rem;
+  display: grid;
+  background-color: #171D22;
+  padding: 10px;
+  grid-column: 1/5;
+  border-radius: 20px;
+  border: none;
+  text-align: right;
+  padding-right: 30px;
+  
+  border-bottom: 2px solid ;
+  margin-bottom: 9px;
+  
+}
+
+button:nth-last-child(2) {
+  grid-column: 3/5;
+  align-items: center;
+  display: grid;
+}
+
+button {
+  text-align: center;
+  border-radius: 50%;
+  margin: 5px;
+  border: 2px solid #E7E7E8;
+  font-weight: 900;
+  font-size: large;
+}
+button:hover{
+  background-color: #431EC7;
+}
+
+.operators{
+  background-color: #431EC7;
+  font-size: 1.3rem;
+  color: #E7E7E8;
+}
+.tittle{
+  position: absolute;
+  background-color: #E7E7E8;
+  width: 100%;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  align-items: center;
+  z-index: 9;
+  font-size: 20px;
+  height: 4vh;
+}
+.tittle i{
+  padding: 0 5px;
+  color: #171D22;
+}
+.right{
+ padding-left: 150px;
+  
+ }
+ .left i{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ .ac{
+  color: red;
+}
+.ac:hover{
+  background-color: red;
+  color: #000000;
+}
+.bottom{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #EDEEF6;
+  height: 2vh;
+  
+}
