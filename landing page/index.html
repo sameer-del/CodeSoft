@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body >
+                                              <!-- header section -->
+    <header class="w-[100%] h-[100vh] bg-[#1da1f2] text-white " id="home">
+       <nav class="flex justify-between p-[50px] align-center w-[100%] m-auto  " >
+        <a href="#home" class="uppercase text-[35px] tracking-wider font-serif pl-[50px] " id="logo">sameer</a>
+        <ul class="flex inline-block pt-[10px]  ">
+            <li><a href="#home" class="mx-8 uppercase  text-[20px] hover:border-b-[3px] ">home</a></li>
+            <li><a href="#gadget" class="mx-8 uppercase  text-[20px] hover:border-b-[3px]  ">gadget</a></li>
+            <li><a href="#users-review" class="mx-8 uppercase text-[20px]  hover:border-b-[3px]  ">users review</a></li>
+            <li><a href="#contact" class="mx-8 uppercase text-[20px]  hover:border-b-[3px]   ">contact</a></li>
+        </ul>
+    
+       </nav>
+       <div class="container w-[100%]  h-[50%] ">
+        <div class="header-section flex flex-col  w-[100%] text-center mt-[130px] ">
+            <h1 class="text-[80px] uppercase font-bold py-[10px] tracking-[5px]" id="main-tittle">sameer Ahamed</h1>
+        <h2 class="text-[40px] uppercase font-bold py-[10px]">wedding photography </h2>
+        <p class="font-semibold text-[25px] py-[10px] ">videographer and photographer <br> available for shoot </p>
+        <a href="#gadget"><span class="text-[80px] pt-[10px]"><i class='bx bxs-down-arrow-alt'></i></span></a>
+        </div>
+       </div>
+    </header>
+
+                                               <!-- header section -->
+                                               <!-- gadget section -->
+
+    <section class="w-[100%] h-[100vh] bg-black px-20" id="gadget">
+        <div class="container  h-[100vh] w-[100%] flex justify-between py-[100px] items-center" id="gadget-component">
+            <div class="gadget-left flex-1  text-white h-[500px] flex flex-col justify-center items-start pl-[80px]">
+                <h1 class="text-[50px] pb-[30px] uppercase">incredible gadgets</h1>
+                <hr class="h-[4px] w-[200px] pb-[40px] ">
+                <p class="max-w-[400px] text-[20px]">Equipped with state-of-the-art tools, our photography arsenal includes high-resolution cameras, advanced lighting setups, and innovative drone technology, ensuring every moment is captured with precision, creativity, and a touch of modern flair. From industry-leading lenses to specialized gadgets, we employ the latest innovations to enhance the visual narrative of your special day.</p>
+            </div>
+            <div class="  gadget-right flex-1 h-[500px] bg-white rounded-[52px] " >
+                <img  class="w-[100vh] h-[100%] rounded-[50px]" src="/assets/gadget.jpg" alt="gadget">
+                
+            </div>
+
+        </div>
+    </section>
+                                                     <!-- gadget section -->
+                                                     <!-- user review section -->
+    <section class="w-[100%] h-[60vh] bg-black px-20" id="users-review">
+        <h1 class="  text-white  text-[50px] text-center uppercase">user reviews</h1>
+        <div class="container w-[100%] bg-black h-[50vh] flex justify-center items-center gap-[50px]" id="user-cards" >
+            
+            <div class="w-[400px] bg-[#232223] h-[250px] text-white rounded-[20px] ">
+                <h1  class="text-[35px] text-center pt-[10px]">photographer</h1>
+                <img class="w-[82%] pl-[60px] pt-[20px]" src="/assets/5-star.png" alt="star">
+                <p class="text-[20px] text-center pt-[30px] w-[100%] px-[20px]">
+                    Capturing timeless moments with artistic finesse; every frame tells a beautiful story.
+                </p>
+            </div>
+            <div class="w-[400px] bg-[#232223] h-[250px] text-white rounded-[20px] ">
+                <h1  class="text-[35px] text-center pt-[10px]">Photographer </h1>
+                <img class="w-[82%] pl-[60px] pt-[20px]" src="/assets/5-star.png" alt="star">
+                <p class="text-[20px] text-center pt-[30px] w-[100%] px-[10px]">
+                    A visionary storyteller, turning your wedding into a captivating narrative through the lens.
+                </p>
+            </div>
+            <div class="w-[400px] bg-[#232223] h-[250px] text-white rounded-[20px] ">
+                <h1  class="text-[35px] text-center pt-[10px]">Gadgets </h1>
+                <img class="w-[82%] pl-[60px] pt-[20px]" src="/assets/5-star.png" alt="star">
+                <p class="text-[20px] text-center pt-[30px] w-[100%] px-[10px]">
+                    Elevating the art of wedding photography with cutting-edge technology and innovative tools.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+                                               <!-- user review section -->
+                                               <!-- contact section -->
+    <section class="w-[100%] h-[60vh] bg-black px-20" id="contact">
+        
+       <div class="container w-[100%] h-[60vh] bg-black ">
+        <form action="https://api.web3forms.com/submit" method="POST" class="w-[100%] px-[20px] flex flex-col items-center h-[90%] gap-[30px]" id="forms-inputs">
+          
+              
+            <h1 class="text-[30px] uppercase p-[20px] pb-[0] tracking-[5px] font-bold text-white">contact me</h1>
+                  <hr class="w-[300px]">
+              <input type="hidden" name="access_key" value="10244875-7d55-45a2-856f-417c67a7f6f9">
+              <input type="text" name="name"  placeholder="your name" class="w-[500px] h-[500px] bg-[#232223] pl-[20px] rounded-[5px]" required>
+              <input type="email" name="email" " placeholder="your email" class="w-[500px] h-[500px] bg-[#232223] pl-[20px] rounded-[5px]" required>
+              <textarea name="message" placeholder="your message" class="w-[500px] h-[500px] bg-[#232223] pl-[20px] rounded-[5px] pt-[10px]" required></textarea>
+              
+              <button type="submit" class="bg-white px-[30px] py-[10px] rounded-[15px] text-[20px]">submit</button>
+          </form>
+       </div>
+    </section>
+                                                     <!-- contact section -->
+                                                     <!-- footer section -->
+    <footer class="text-white text-center pb-[30px]">
+        Capturing life's most precious moments with artistry and passion. sameer Ahamed | wedding photography © 2024 
+    </footer>
+    
+                                                       <!-- footer section -->
+    
+    <script defer src="index.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</body>
+</html>
